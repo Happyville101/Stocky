@@ -20,8 +20,7 @@ import javafx.stage.Stage;
  */
 public class Init {
     public static void main(String[] args) throws Exception {
-        MiniBrowser brow = new MiniBrowser();
-        //Token tkn = new Token(args);
+        Token tkn = new Token(args);
         //tkn.printPageTitle();
         //Reference ref = new Reference();
         //Authencate getJSON = new Authencate(ref.getToken());
